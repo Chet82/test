@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AddressBook.master.cs" Inherits="AddressBook" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head id="Head1" runat="server">
+        <title>Sample Master Page</title>
+        <link href="AddressBook.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form id="form1" runat="server">
+ 
+             <header>
+                 Address Book</header>
+ 
+            <article>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </article>
+  
+            <footer>
+                Footer text here
+            </footer>
+        </form>
+    </body>
+</html>
